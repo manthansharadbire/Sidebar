@@ -1,10 +1,38 @@
 body{
     margin: 0px;
     padding: 0px;
+    background-color: rgb(39, 37, 37);
 }
 
 .sidebar{
-    background-color: tomato;
-    height: 100vh;
-    width: 200px;
+    background-color: rgb(28, 27, 26);
+    height: 90vh;
+    width: 220px;
+    display: block;
+    visibility: ;
+}
+
+.sidebar-items{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    display: block;
+    cursor: pointer;
+}
+
+.sidebar-items:hover{
+background-color: #565353;
+
+
+}
+
+
+.sidebar-text{
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 20px;
+    color: #fff;
 }
