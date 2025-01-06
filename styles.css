@@ -6,10 +6,10 @@ body{
 
 .sidebar{
     background-color: rgb(28, 27, 26);
-    height: 90vh;
+    height: 95vh;
     width: 220px;
     display: block;
-    visibility: ;
+    visibility: hidden;
 }
 
 .sidebar-items{
@@ -19,7 +19,6 @@ body{
     padding-left: 10px;
     margin-bottom: 10px;
     color: #fff;
-    display: block;
     cursor: pointer;
 }
 
@@ -35,4 +34,22 @@ background-color: #565353;
     padding-left: 10px;
     font-size: 20px;
     color: #fff;
+    cursor: pointer;
+}
+
+#hamburger{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+#close{
+margin-top: 10px;
+margin-left: 190px;
+    color: #fff;
+    cursor: pointer;
+    
 }
