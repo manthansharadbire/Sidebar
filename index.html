@@ -67,12 +67,21 @@
 
  <script>
 function opensidebar(){
+const sidebarElement = document.getElementById('side-bar');
+sidebarElement.style.visibility = 'visible';
 
+const hamburgermenu = document.getElementById('hamburger');
+hamburgermenu.style.visibility = 'hidden';
 }
-
 function closesidebar(){
+const sidebarElement = document.getElementById('side-bar');
+sidebarElement.style.visibility = 'hidden';
+
+const hamburgermenu = document.getElementById('hamburger');
+hamburgermenu.style.visibility = 'visible';
 
 }
+
 
  </script>
 </body>
